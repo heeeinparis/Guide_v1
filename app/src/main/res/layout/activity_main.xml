@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffF6"
+    tools:context="com.example.sohee.guide_v1.MainActivity">
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="200dp"
+        android:onClick="OnLoginbtnClicked"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_empty_oval"
+        android:backgroundTint="#FFCBCB"
+        android:text="LOGIN"
+        android:textColor="#FFFFF6"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="277dp"
+        android:layout_above="@+id/signupbtn"
+        android:layout_alignLeft="@+id/signupbtn"
+        android:layout_alignStart="@+id/signupbtn"
+        android:layout_marginBottom="33dp" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pink_filled_oval"
+        android:text="SIGN UP"
+        android:textColor="#FFCBCB"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="359dp"
+        tools:layout_editor_absoluteX="101dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp" />
+
+    <TextView
+        android:id="@+id/titletxtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="BCount"
+        android:textColor="#FFCBCB"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+
+</RelativeLayout>
