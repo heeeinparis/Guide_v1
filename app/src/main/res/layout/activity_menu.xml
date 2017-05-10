@@ -33,7 +33,7 @@
         android:layout_marginTop="57dp"
         android:background="@drawable/pink_filled_oval"
         android:backgroundTint="#FFCBCB"
-        android:onClick="onButtonClicked2"
+        android:onClick="OnCheckbtnClicked"
         android:text="      CHECK      "
         android:textColor="#FFFFF6"
         android:textSize="13dp" />
@@ -48,9 +48,6 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" /><![CDATA[
-
-
-    >]]>
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
 

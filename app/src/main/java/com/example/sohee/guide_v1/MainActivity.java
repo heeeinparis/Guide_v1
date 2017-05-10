@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-}
+    }
+
     public void OnLoginbtnClicked(View v){
         Intent loginbtnIntent = new Intent(getApplicationContext(),LoginActivity.class);
         startActivity(loginbtnIntent);

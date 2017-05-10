@@ -23,17 +23,17 @@
 
     <EditText
         android:id="@+id/numedittext"
-        android:layout_width="50dp"
+        android:layout_width="70dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#8C8C8C"
         android:ems="10"
-        android:textColor="#8C8C8C"
         android:inputType="textPersonName"
         android:text=" "
-        android:backgroundTint="#8C8C8C"
-        android:layout_marginBottom="32dp"
+        android:textColor="#8C8C8C"
         android:layout_above="@+id/linearLayout2"
-        android:layout_alignStart="@+id/linearLayout2"
-        android:layout_marginStart="36dp" />
+        android:layout_alignLeft="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2" />
 
     <LinearLayout
         android:layout_width="300dp"
@@ -65,8 +65,7 @@
         android:text=" "
         android:textColor="#8C8C8C"
         android:backgroundTint="#8C8C8C"
-        android:layout_alignBaseline="@+id/numedittext"
-        android:layout_alignBottom="@+id/numedittext"
+        android:layout_below="@+id/titletxtview3"
         android:layout_centerHorizontal="true" />
 
 
@@ -79,11 +78,12 @@
         android:id="@+id/registbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/nameedittext"
-        android:layout_toEndOf="@+id/nameedittext"
         android:backgroundTint="#FFCBCB"
         android:text="ENTER"
-        android:textColor="#FFFFF6"/>
+        android:textColor="#FFFFF6"
+        android:layout_alignBottom="@+id/nameedittext"
+        android:layout_toRightOf="@+id/nameedittext"
+        android:layout_toEndOf="@+id/nameedittext" />
 
 
 </RelativeLayout>

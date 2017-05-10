@@ -10,13 +10,19 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_menu);
 
 
-}
+    }
+
     public void OnRegistmenubtnClicked(View v){
         Intent registmenubtnIntent = new Intent(getApplicationContext(),RegisterActivity.class);
         startActivity(registmenubtnIntent);
+    }
+
+    public void OnCheckbtnClicked(View v){
+        Intent checkbtnIntent = new Intent(getApplicationContext(),CheckActivity.class);
+        startActivity(checkbtnIntent);
     }
 
 }
