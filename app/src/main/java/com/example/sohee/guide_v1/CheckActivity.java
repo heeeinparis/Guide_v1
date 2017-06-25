@@ -14,6 +14,4 @@ public class CheckActivity extends AppCompatActivity {
     }
 
 
-
-
 }

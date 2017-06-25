@@ -7,6 +7,23 @@
     android:background="#ffffF6"
     tools:context="com.example.sohee.guide_v1.MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count"
+        android:textColor="#FFCBCB"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="126dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignRight="@+id/loginbtn"
+        android:layout_alignEnd="@+id/loginbtn"
+        android:layout_marginTop="23dp" />
+
     <Button
         android:id="@+id/loginbtn"
         android:layout_width="200dp"
@@ -40,19 +57,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="134dp" />
 
-    <TextView
-        android:id="@+id/titletxtview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp"
-        android:text="BCount"
-        android:textColor="#FFCBCB"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="126dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo"
+
+        android:layout_marginBottom="61dp"
+        android:layout_above="@+id/loginbtn"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
 
 
 </RelativeLayout>
