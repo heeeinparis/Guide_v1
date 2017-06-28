@@ -4,7 +4,7 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffF6"
+    android:background="#FFFFFF"
 
     tools:context="com.example.sohee.guide_v1.RegisterActivity">
 
@@ -13,13 +13,13 @@
         android:id="@+id/titletxtview3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REGISTRATION"
-        android:textColor="#FFCBCB"
-        android:textSize="23dp"
-        android:textStyle="bold"
         android:layout_above="@+id/numedittext"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="46dp" />
+        android:layout_marginBottom="46dp"
+        android:text="REGISTRATION"
+        android:textColor="#3162C7"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/numedittext"
@@ -79,9 +79,10 @@
         android:layout_alignTop="@+id/nameedittext"
         android:layout_toEndOf="@+id/nameedittext"
         android:layout_toRightOf="@+id/nameedittext"
-        android:backgroundTint="#FFCBCB"
+        android:backgroundTint="#3162C7"
         android:text="ENTER"
-        android:textColor="#FFFFF6" />
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
 
 
 </RelativeLayout>

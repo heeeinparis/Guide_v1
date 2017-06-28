@@ -5,7 +5,7 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffF6"
+    android:background="#FFFFFF"
     tools:context="com.example.sohee.guide_v1.LoginActivity">
 
 
@@ -13,23 +13,23 @@
         android:id="@+id/titletxtview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/usernametxtview"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="90dp"
         android:text="BCount"
-        android:textColor="#FFCBCB"
+        android:textColor="#3162C7"
         android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_above="@+id/usernametxtview"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/usernametxtview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="USERNAME"
-        android:textColor="#8C8C8C"
         android:layout_above="@+id/idedittxt"
         android:layout_alignLeft="@+id/idedittxt"
-        android:layout_alignStart="@+id/idedittxt" />
+        android:layout_alignStart="@+id/idedittxt"
+        android:text="USERNAME"
+        android:textColor="#3162C7" />
 
     <EditText
         android:id="@+id/idedittxt"
@@ -37,10 +37,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="39dp"
         android:backgroundTint="#8C8C8C"
-        android:textColor="#8C8C8C"
         android:ems="10"
         android:inputType="textPersonName"
         android:text=" "
+        android:textColor="#3162C7"
         android:layout_above="@+id/pwtxtview"
         android:layout_centerHorizontal="true" />
 
@@ -48,13 +48,13 @@
         android:id="@+id/loginbtn2"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="91dp"
+        android:layout_marginBottom="87dp"
         android:background="@drawable/pink_filled_oval"
-        android:backgroundTint="#FFCBCB"
+        android:backgroundTint="#3162C7"
         android:onClick="OnLoginbtnClicked2"
         android:text="LOGIN"
-        android:textColor="#FFFFF6"
-        android:textSize="13dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
         android:textStyle="bold"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
@@ -63,21 +63,21 @@
         android:id="@+id/pwedittxt"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:ems="10"
-        android:textColor="#8C8C8C"
         android:backgroundTint="#8C8C8C"
+        android:ems="10"
         android:inputType="textPassword"
+        android:textColor="#3162C7"
         android:layout_above="@+id/checkBox"
         android:layout_alignLeft="@+id/pwtxtview"
-        android:layout_alignStart="@+id/pwtxtview" />
+        android:layout_alignStart="@+id/pwtxtview"
+        android:layout_marginBottom="11dp" />
 
     <TextView
         android:id="@+id/pwtxtview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="PASSWORD"
-        android:textColor="#8C8C8C"
+        android:textColor="#3162C7"
         android:layout_above="@+id/pwedittxt"
         android:layout_alignLeft="@+id/idedittxt"
         android:layout_alignStart="@+id/idedittxt" />
@@ -86,10 +86,10 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
         android:text="Remember me"
-        android:textColor="#8C8C8C"
-        app:buttonTint="#FFCBCB"
-        android:layout_marginBottom="11dp"
+        android:textColor="#3162C7"
+        app:buttonTint="#3162C7"
         android:layout_above="@+id/loginbtn2"
         android:layout_alignLeft="@+id/pwedittxt"
         android:layout_alignStart="@+id/pwedittxt" />

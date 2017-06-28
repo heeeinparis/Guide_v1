@@ -3,7 +3,7 @@
     android:shape="oval"
     android:padding = "100dp"
     >
-    <stroke android:width="3dp" android:color="#FFCBCB"/>
-    <solid android:color="#FFFFF6"></solid>
+    <stroke android:width="3dp" android:color="#3162C7"/>
+    <solid android:color="#FFFFFF"></solid>
     <corners android:radius="100dp"></corners>
 </shape>
