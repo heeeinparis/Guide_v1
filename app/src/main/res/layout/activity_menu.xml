@@ -16,11 +16,12 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
         android:background="@drawable/pink_filled_oval"
-        android:backgroundTint="#3162C7"
+        android:backgroundTint="#980000"
         android:onClick="OnRegistmenubtnClicked"
         android:text="        REGISTRATION      "
         android:textColor="#FFFFFF"
-        android:textSize="17dp" />
+        android:textSize="17dp"
+        android:textStyle="bold" />
 
 
     <Button
@@ -32,11 +33,12 @@
         android:layout_below="@+id/registmenubtn"
         android:layout_marginTop="57dp"
         android:background="@drawable/pink_filled_oval"
-        android:backgroundTint="#3162C7"
+        android:backgroundTint="#980000"
         android:onClick="OnCheckbtnClicked"
         android:text="      CHECK      "
         android:textColor="#FFFFFF"
-        android:textSize="17dp" />
+        android:textSize="17dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/titletxtview4"
@@ -46,7 +48,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="63dp"
         android:text="MENU"
-        android:textColor="#3162C7"
+        android:textColor="#980000"
         android:textSize="30dp"
         android:textStyle="bold" />
 </RelativeLayout>

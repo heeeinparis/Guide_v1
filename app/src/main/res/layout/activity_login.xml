@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="90dp"
         android:text="BCount"
-        android:textColor="#3162C7"
+        android:textColor="#980000"
         android:textSize="30dp"
         android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
         android:layout_alignLeft="@+id/idedittxt"
         android:layout_alignStart="@+id/idedittxt"
         android:text="USERNAME"
-        android:textColor="#3162C7" />
+        android:textColor="#980000" />
 
     <EditText
         android:id="@+id/idedittxt"
@@ -48,16 +48,16 @@
         android:id="@+id/loginbtn2"
         android:layout_width="250dp"
         android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="87dp"
         android:background="@drawable/pink_filled_oval"
-        android:backgroundTint="#3162C7"
+        android:backgroundTint="#980000"
         android:onClick="OnLoginbtnClicked2"
         android:text="LOGIN"
         android:textColor="#FFFFFF"
         android:textSize="17dp"
-        android:textStyle="bold"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/pwedittxt"
@@ -76,22 +76,22 @@
         android:id="@+id/pwtxtview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PASSWORD"
-        android:textColor="#3162C7"
         android:layout_above="@+id/pwedittxt"
         android:layout_alignLeft="@+id/idedittxt"
-        android:layout_alignStart="@+id/idedittxt" />
+        android:layout_alignStart="@+id/idedittxt"
+        android:text="PASSWORD"
+        android:textColor="#980000" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="22dp"
-        android:text="Remember me"
-        android:textColor="#3162C7"
-        app:buttonTint="#3162C7"
         android:layout_above="@+id/loginbtn2"
         android:layout_alignLeft="@+id/pwedittxt"
-        android:layout_alignStart="@+id/pwedittxt" />
+        android:layout_alignStart="@+id/pwedittxt"
+        android:layout_marginBottom="22dp"
+        android:text="Remember me"
+        android:textColor="#980000"
+        app:buttonTint="#980000" />
 
 </RelativeLayout>

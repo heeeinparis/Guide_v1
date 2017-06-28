@@ -11,18 +11,18 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/loginbtn"
-        android:layout_alignRight="@+id/loginbtn"
-        android:layout_alignTop="@+id/imageView2"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
-        android:layout_marginTop="23dp"
         android:text="Count"
-        android:textColor="#3162C7"
+        android:textColor="#980000"
         android:textSize="40dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="126dp" />
+        tools:layout_editor_absoluteY="126dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignRight="@+id/loginbtn"
+        android:layout_alignEnd="@+id/loginbtn"
+        android:layout_marginBottom="18dp" />
 
     <Button
         android:id="@+id/loginbtn"
@@ -33,7 +33,7 @@
         android:layout_alignStart="@+id/signupbtn"
         android:layout_marginBottom="33dp"
         android:background="@drawable/pink_empty_oval"
-        android:backgroundTint="#3162C7"
+        android:backgroundTint="#980000"
         android:onClick="OnLoginbtnClicked"
         android:text="LOGIN"
         android:textColor="#FFFFFF"
@@ -51,8 +51,8 @@
         android:layout_marginBottom="134dp"
         android:background="@drawable/pink_filled_oval"
         android:text="SIGN UP"
-        android:textColor="#3162C7"
-        android:textSize="13dp"
+        android:textColor="#980000"
+        android:textSize="17dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="359dp" />
@@ -61,12 +61,12 @@
         android:id="@+id/imageView2"
         android:layout_width="80dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/logo"
 
-        android:layout_marginBottom="61dp"
         android:layout_above="@+id/loginbtn"
+        android:layout_marginBottom="74dp"
         android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView" />
+        android:layout_toStartOf="@+id/textView"
+        app:srcCompat="@drawable/logo" />
 
 
 </RelativeLayout>
