@@ -82,7 +82,7 @@
         android:backgroundTint="#980000"
         android:text="ENTER"
         android:textColor="#FFFFFF"
-        android:textSize="20dp" />
+        android:textSize="17dp" />
 
 
 </RelativeLayout>

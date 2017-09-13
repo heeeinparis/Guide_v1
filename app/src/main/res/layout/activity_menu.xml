@@ -9,10 +9,24 @@
 
 
     <Button
+        android:id="@+id/msgmenubtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registmenubtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/pink_filled_oval"
+        android:backgroundTint="#980000"
+        android:onClick="OnMsgmenubtnClicked"
+        android:text="  B-TALK"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <Button
         android:id="@+id/registmenubtn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
         android:background="@drawable/pink_filled_oval"
         android:backgroundTint="#980000"
         android:onClick="OnRegistmenubtnClicked"
@@ -20,8 +34,10 @@
         android:textColor="#FFFFFF"
         android:textSize="17dp"
         android:textStyle="bold"
-        android:layout_below="@+id/titletxtview4"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/checkmenubtn"
+        android:layout_alignLeft="@+id/msgmenubtn"
+        android:layout_alignStart="@+id/msgmenubtn"
+        android:layout_marginTop="45dp" />
 
 
     <Button
@@ -35,21 +51,21 @@
         android:textColor="#FFFFFF"
         android:textSize="17dp"
         android:textStyle="bold"
+        android:layout_marginTop="64dp"
         android:layout_below="@+id/titletxtview4"
         android:layout_alignLeft="@+id/registmenubtn"
-        android:layout_alignStart="@+id/registmenubtn"
-        android:layout_marginTop="60dp" />
+        android:layout_alignStart="@+id/registmenubtn" />
 
     <TextView
         android:id="@+id/titletxtview4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
+        android:layout_marginTop="100dp"
         android:text="MENU"
         android:textColor="#980000"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
 

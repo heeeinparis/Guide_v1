@@ -9,6 +9,33 @@
     tools:context="com.example.sohee.guide_v1.LoginActivity">
 
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignEnd="@+id/ti_1"
+        android:layout_alignRight="@+id/ti_1"
+        android:layout_marginBottom="26dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:text="Count"
+        android:textColor="#980000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/pawprint"
+        android:layout_above="@+id/ti_1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp" />
+
     <android.support.design.widget.TextInputLayout
         android:id="@+id/ti_1"
         android:layout_width="250dp"
@@ -18,8 +45,7 @@
         android:textColorHint="#8C8C8C"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/ti_2"
-        android:layout_alignStart="@+id/ti_2">
+        android:layout_centerHorizontal="true">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/et_1"
@@ -39,42 +65,45 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Count"
-        android:textColor="#980000"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="133dp"
-        tools:layout_editor_absoluteY="126dp"
-        android:layout_marginRight="39dp"
-        android:layout_marginEnd="39dp"
         android:layout_alignBottom="@+id/imageView"
-        android:layout_alignRight="@+id/ti_1"
-        android:layout_alignEnd="@+id/ti_1"
-        android:layout_marginBottom="17dp" />
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:text="v.Guide"
+        android:textColor="#980000"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="126dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="80dp"
         android:layout_height="100dp"
         app:srcCompat="@drawable/logo"
-        android:layout_marginBottom="38dp"
-        android:layout_above="@+id/ti_1"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView" />
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/lgnbutton2"
+        android:layout_alignStart="@+id/lgnbutton2"
+        android:layout_marginTop="54dp" />
 
     <Button
         android:id="@+id/lgnbutton2"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:layout_below="@+id/checkBox"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+
+        android:layout_marginTop="24dp"
+
+        android:onClick="OnLoginbtnClicked2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/pink_empty_oval"
-        android:onClick="OnLoginbtn2Clicked"
+        android:backgroundTint="#980000"
+
         android:text="LOGIN"
         android:textColor="#FFFFFF"
-        android:textSize="13dp"
-        android:textStyle="bold" />
+        android:textSize="17dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="277dp"
+
+        android:layout_below="@+id/checkBox"
+        android:layout_centerHorizontal="true" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -97,8 +126,8 @@
         android:textColorHint="#8C8C8C"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         android:layout_below="@+id/ti_1"
-        android:layout_alignLeft="@+id/lgnbutton2"
-        android:layout_alignStart="@+id/lgnbutton2">
+        android:layout_alignLeft="@+id/ti_1"
+        android:layout_alignStart="@+id/ti_1">
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/et_2"

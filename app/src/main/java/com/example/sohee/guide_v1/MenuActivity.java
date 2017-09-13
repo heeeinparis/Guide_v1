@@ -25,4 +25,11 @@ public class MenuActivity extends AppCompatActivity {
         startActivity(checkbtnIntent);
     }
 
+
+    public void   OnMsgmenubtnClicked(View v){
+        Intent msgbtnIntent = new Intent(getApplicationContext(),MessageActivity.class);
+        startActivity(msgbtnIntent);
+    }
+
+
 }
