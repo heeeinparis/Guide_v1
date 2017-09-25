@@ -26,10 +26,6 @@ public class MenuActivity extends AppCompatActivity {
     }
 
 
-    public void   OnMsgmenubtnClicked(View v){
-        Intent msgbtnIntent = new Intent(getApplicationContext(),MessageActivity.class);
-        startActivity(msgbtnIntent);
-    }
 
 
 }

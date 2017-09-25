@@ -12,7 +12,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <activity
-            android:name=".LoginActivity">
+            android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -24,7 +24,7 @@
             android:windowSoftInputMode="adjustNothing">
         </activity>
         <activity android:name=".CheckActivity"></activity>
-        <activity android:name=".MessageActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
 
 
     </application>
